@@ -1,0 +1,123 @@
+contact:
+    name: Kusno Mudiarto
+    currentAddress:
+        - 1279 Alta Carmel Ct. Unit 21
+        - San Diego, CA 92128
+    email: 'contact@mudiarto.com'
+    phone: (858) 848-5868
+    url: '\url{http://kusno.mudiarto.com/}'
+
+skills:
+    - Technical Knowledge:
+        - 'Languages: Python, JavaScript, Ruby,  Objective-C, C++, C, ARM / Intel Assembly Language'
+        - 'Frameworks: AppEngine, Django, iOS, Rails, jQuery, Backbone.js'
+        - 'Platforms: Amazon Web Services, Linux, Mac OS X, Windows, Nucleus'
+        - 'Tools: Vim, Git, Mercurial, ClearCase, JTAG'
+    - General:
+        - 'Entrepreneurial minded - co-founded 3 companies'
+        - 'A doer, generalist, fast learner and good problem solver'
+        - 'Computer Geek - love all things computer. Learned programming since elementary school'
+        - 'Interested in web and mobile technology, startup company, software development methodology, algorithms, improving myself and make the world a better place'
+    - Current Projects:
+        - '5000hands.com: Causes.com for volunteer projects'
+        - 'CloudGirlfriend.com: Anonymous real time chat & dating service'
+        - 'zoomIt: The first SD Card reader for iPhone & iPad'
+        - 'Esthersnc.com: eCommerce website specialize in Nail Polish & Nail Treatments'
+
+work:
+    - employer: 5000 Hands
+      title: Co-founder
+      location: San Diego, CA
+      dates: October 2010 - Current
+      description:
+        - 'Designed and implemented 5000hands concepts and website'
+        - 'Technology Used: Python, AppEngine, AWS, CoffeeScript, Backbone.js, jQuery, Git'
+    - employer: Cloud Girlfriend
+      title: Co-founder
+      location: San Diego, CA
+      dates: April 2011 - Current
+      description:
+        - 'Brainstormed initial product idea, launched it and became viral'
+        - 'Designed and implemented CloudGirlfriend concepts and website with a team of 4'
+        - 'Technology Used: Python, AppEngine, Backbone.js, jQuery, Realtime Chat, Comet / Channel API, Git'
+    - employer: "Esther's Nail Center"
+      title: Co-founder
+      location: San Diego, CA
+      dates: 2008 - Current
+      description:
+        - 'Designed and implemented Esthersnc.com website'
+        - 'Technology used: Drupal, Ubercart, Wordpress, Nginx, Ubuntu, Linode'
+    - employer: zoomMedia Plus
+      title: Principal Software Engineer, First Engineer
+      location: San Diego, CA
+      dates: March 2008 - October 2010
+      description:
+        - 'Released several apps to Apple AppStore'
+        - 'Designed and implemented zoomIt reader and zoomIt music apps for zoomIt hardware'
+        - 'Designed and implemented comic reader app for iPhone'
+        - 'Designed and implemented prototype iPhone TV app for MediaFLO'
+        - "Implemented ATE - Automated Test Engine for Qualcomm's MediaFLO"
+        - 'Installed and managed company wide source code repository and bug tracking tools'
+        - 'Technology Used: Objective-C, Three20, Rails, Mercurial, Perl'
+    - employer: Sky MobileMedia
+      title: Senior Software Engineer
+      location: San Diego, CA
+      dates: 2004 - 2008
+      description:
+        - "Managed a team of 6 to develop and maintain SKY Browser. Worked closely with customers, product manager, system architect and QA team. Designed and developed web browser framework, layout engine, parser, CSS Module, HTML & WML module, ECMA/JavaScript integration, and network module. Ported on multiple handsets and platforms, integrated with multiple vendors, carriers, and supports multiple customers across the world"
+        - "Designed and developed SKY Instant Messaging, an IM client that supports Wireless Village protocols. Passed the OMA test certification in November 2004"
+        - "Manage build and release process before SKY has dedicated build manager. Developed utilities and workflow that makes build efficient. Worked with multisite ClearCase and ClearQuest across the world"
+        - 'Technology Used: C++, ARM Assembly Language, Nucleus, Symbian, QT, JTAG, ClearCase, ClearQuest, Ruby'
+    - employer: Gluon Networks
+      title: Software Engineer
+      location: San Diego, CA
+      dates: 2000 - 2004
+      description: 
+        - 'Designed and developed Log Manager, a high-performance, distributed, fault tolerant and redundant logging system, running on 2 disk equipped cards and 14 diskless secondary cards'
+        - "Developed and maintained CLX OS framework with a team of 3. Features developed including operating system transparency layer for pSOS and Windows, and multiple system services including TCP/IP, timer, messaging, memory allocation, synchronization, and various data structures. Also designed CLX CLIsubsystem, accessible through telnet & serial port"
+        - "Helped perform daily load sanity tests for multiple builds and releases. Assisted management and the software group on the load condition and problems. Worked together with offshore software development team to debug software, hardware, testing equipment or configuration problems"
+        - 'Technology Used: C, C++, Intel Assembly Language, pSOS, Windows, Continuus'
+social:
+    - project: San Diego Community Serve Day
+      title: Web Master 
+      location: San Diego, CA
+      dates: 2009 - Current
+      description:
+        - 'An annual day of service event that benefits causes around San Diego'
+        - 'Designed and implemented website registration & coordination system that enables the event to support 3000+ volunteers and 100+ projects around San Diego'
+        - 'Technology Used: Joomla, Nginx, MySQL, Ubuntu, Linode'
+    - project: Alternative Christmas Market
+      title: Web Master
+      location: San Diego, CA
+      dates: 2010 - Current
+      description:
+        - "Alternative gift giving that has a symbolic value to the gift recipient and benefits a meaningful cause at the same time. ACM creates an opportunity for others to give gifts of food, shelter, medicine, water, education and other for needy people around the world in your honor"
+        - 'Implemented and managed the website'
+        - 'Technology Used: Drupal, Nginx, MySQL, Ubuntu, Linode'
+
+education:
+    - degree: Founder Institute Graduates
+      school: Founder Institute San Diego
+      dates: Fall 2010
+
+    - degree: Bachelor of Science - Computer Engineering
+      school: Institut Teknologi Sepuluh Nopember, Indonesia
+      dates: 1994 - 1999
+
+interests: 'books, games, music, volunteer, make the world a better place'
+
+# TODO:
+# - Improve README
+
+
+################################################################################
+# This resume was created using:
+# - YAML source (this file) - for the resume content
+# - LaTeX template - for presentation and layout
+# - Python script and Cheetah (templating engine) for compiling together the
+#   YAML and LaTeX
+# - pdflatex for .tex --> .pdf
+# - GNU Make for easy compilation
+# - Vim for editing all files
+# - Git for revision control, diff, backup, branching, etc.
+#

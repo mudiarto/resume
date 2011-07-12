@@ -1,0 +1,140 @@
+## Change delimiters for Cheetah
+#compiler-settings
+cheetahVarStartToken = ;
+directiveStartToken = !
+#end compiler-settings
+
+\documentclass[margin,line]{res}
+\usepackage{hyperref}
+\hypersetup{pdfborder={0 0 0 0}}
+
+% Disable ligatures (messes with search in pdf files)
+% TODO: Add another make target (such as printable) that does not do this
+\usepackage{microtype}
+\DisableLigatures{encoding = *, family = * }
+
+% Change some fonts
+\renewcommand{\namefont}{\LARGE\emph}
+\renewcommand{\sectionfont}{\large\bf\sc}
+
+% Margins, spacing, etc.
+\topmargin -.3in
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\textheight=9.5in
+\itemsep=0in
+\parsep=0in
+\pagestyle{plain}  % Do want page numbers
+
+\begin{document}
+\begin{sloppypar} % So long words will wrap to the next line instead of overflowing
+
+\name{;contact.name}
+\address{;contact.url\hspace{1cm};contact.phone\hspace{1cm};contact.email}
+
+\begin{resume}
+
+\section{Highlights}
+!for ;categoryMap in ;skills
+    !for ;category, ;points in ;categoryMap.items()
+        {\bf ;category}
+        \begin{itemize}
+        !for ;point in ;points
+            \item ;point
+        !end for
+        \end{itemize}
+    !end for
+!end for
+
+
+\section {Work Experience}
+
+\begin{format}
+  \employer{l}\title{r}\\
+  \location{l}\dates{r}\\
+  \body\\
+\end{format}
+
+!for ;position in ;work
+    \employer{\textbf{;position.employer}}
+    \title{;position.title}
+    \location{;position.location}
+    \dates{;position.dates}
+    \begin{position}
+        \vspace{-.3cm}
+        !if ;position.description
+            \begin{itemize}
+            !for ;point in ;position.description
+                \item ;point
+            !end for
+            \end{itemize}
+        !else
+            \vspace{-.2cm}
+        !end if
+    \end{position}
+!end for
+
+\section {Social / Volunteer Projects}
+
+\begin{format}
+  \employer{l}\title{r}\\
+  \location{l}\dates{r}\\
+  \body\\
+\end{format}
+
+!for ;position in ;social
+    \employer{\textbf{;position.project}}
+    \title{;position.title}
+    \location{;position.location}
+    \dates{;position.dates}
+    \begin{position}
+        \vspace{-.3cm}
+        !if ;position.description
+            \begin{itemize}
+            !for ;point in ;position.description
+                \item ;point
+            !end for
+            \end{itemize}
+        !else
+            \vspace{-.2cm}
+        !end if
+    \end{position}
+!end for
+
+
+\section{Education}
+
+\begin{format}
+  \title{l}\\
+  \location{l}\dates{r}\\
+  \body\\
+\end{format}
+
+!for ;school in ;education
+    \title{\textbf{;school.degree}}
+    \dates{;school.dates}
+    \location{;school.school}
+    \begin{position}
+        \vspace{-.3cm}
+        !if ;school.get("description", None) != None
+            \begin{itemize}
+            !for ;point in ;school.description
+                \item ;point
+            !end for
+            \end{itemize}
+        !else
+            \vspace{-.2cm}
+        !end if
+    \end{position}
+!end for
+
+\section{Interests}
+;interests
+
+
+\vfill
+
+\end{resume}
+\end{sloppypar}
+\end{document}
