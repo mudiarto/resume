@@ -10,14 +10,13 @@ contact:
 skills:
     - Technical Knowledge:
         - 'Languages: Python, JavaScript, Ruby,  Objective-C, C++, C, ARM / Intel Assembly Language'
-        - 'Frameworks: AppEngine, Django, iOS, Rails, jQuery, Backbone.js'
-        - 'Platforms: Amazon Web Services, Linux, Mac OS X, Windows, Nucleus'
+        - 'Frameworks: Django, webapp, tipfy, iOS, Rails, jQuery, Backbone.js'
+        - 'Platforms: AppEngine, Amazon Web Services, Linux, Mac OS X, Windows, pSOS'
         - 'Tools: Vim, Git, Mercurial, ClearCase, JTAG'
     - General:
-        - 'Entrepreneurial minded - co-founded 3 companies'
         - 'A doer, generalist, fast learner and good problem solver'
         - 'Computer Geek - love all things computer. Learned programming since elementary school'
-        - 'Interested in web and mobile technology, startup company, software development, algorithms, scaling, continuous improvement, and make the world a better place'
+        - 'Interested in web and mobile technology, software development, algorithms, scaling, real-time, continuous improvement, and make the world a better place'
     - Current Projects:
         - '5000hands.com: Causes.com for volunteer projects'
         - 'CloudGirlfriend.com: Anonymous fantasy real time chat and dating service'
@@ -25,16 +24,16 @@ skills:
 
 work:
     - employer: 5000 Hands (5000hands.com)
-      title: Technical Co-founder
+      title: Lead Engineer
       location: San Diego, CA
       dates: October 2010 - Current
       description:
         - 'Causes.com for volunteer projects. We help organization manage and engage volunteer to work on a short term projects'
         - 'Designed and developed 5000hands initial idea and website'
         - 'The alpha version has been used in 2 large events, organized 5000+ users and 100+ projects'
-        - 'Technology Used: Python, AppEngine, AWS, CoffeeScript, Backbone.js, jQuery, Git'
+        - 'Technology Used: Python, AppEngine, AWS, CoffeeScript, Backbone.js, jQuery, jQuery UI,  Git'
     - employer: Cloud Girlfriend (cloudgirlfriend.com)
-      title: Technical Co-founder
+      title: Lead Engineer
       location: San Diego, CA
       dates: April 2011 - Current
       description:
@@ -44,7 +43,7 @@ work:
         - 'Designed and implemented CloudGirlfriend concepts and website with a team of 4'
         - 'Technology Used: Python, AppEngine, Backbone.js, jQuery, Realtime Chat, Comet / Channel API, Git'
     - employer: "Esther's Nail Center (esthersnc.com)" 
-      title: Technical Co-founder
+      title: Lead Engineer
       location: San Diego, CA
       dates: 2008 - Current
       description:
@@ -53,14 +52,14 @@ work:
         - 'Evaluated, integrated, and tested Drupal modules to build the site' 
         - 'Technology used: Drupal, Ubercart, Wordpress, Nginx, Ubuntu, Linode'
     - employer: zoomMedia Plus (zoomitonline.com)
-      title: Staff Software Engineer, First Engineer
+      title: Staff Software Engineer
       location: San Diego, CA
       dates: March 2008 - October 2010
       description:
         - 'A software consulting company, with several of our own iphone software & accessory products'
         - 'Designed and implemented zoomIt reader and zoomIt music apps for zoomIt hardware'
         - 'Designed and implemented prototype iPhone TV app for MediaFLO'
-        - "Worked on ATE - Automated Test Engine for Qualcomm's MediaFLO"
+        - "Worked on ATE - Automatic Test Script for Qualcomm's MediaFLO"
         - 'Technology Used: Objective-C, iOS, Three20, Rails, Mercurial, Perl'
     - employer: Sky MobileMedia
       title: Senior Software Engineer
