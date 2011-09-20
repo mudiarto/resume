@@ -21,6 +21,7 @@ skills:
         - '5000hands.com: Causes.com for volunteer projects'
         - 'CloudGirlfriend.com: Anonymous fantasy real time chat and dating service'
         - 'Esthersnc.com: eCommerce website specialize in Nail Supplies'
+        - 'Thehoneyday.com: eCommerce website for candy subscription'
 
 work:
     - employer: 5000 Hands (5000hands.com)
@@ -39,24 +40,22 @@ work:
       description:
         - "Anonymous fantasy real time chat and dating website"
         - 'Brainstormed initial product idea, launched it and became viral'
-        - "Featured in multiple publications, radio, TV. Mentioned in Jay Leno, Conan O'Brien segment. One of the 100 most interesting ideas in 2011 - Times Magazine"
+        - "Featured in multiple publications, radio, TV. One of the 100 most interesting ideas in 2011 - Times Magazine"
         - 'Designed and implemented CloudGirlfriend concepts and website with a team of 4'
         - 'Technology Used: Python, AppEngine, Backbone.js, jQuery, Realtime Chat, Comet / Channel API, Git'
-    - employer: "Esther's Nail Center (esthersnc.com)" 
+    - employer: "Esther's Nail Center and Honey Day" 
       title: Lead Engineer
       location: San Diego, CA
       dates: 2008 - Current
       description:
-        - 'eCommerce website specialize in Nail Supplies'
-        - 'Designed and implemented Esthersnc.com website'
-        - 'Evaluated, integrated, and tested Drupal modules to build the site' 
+        - 'eCommerce website design, implementation, and administration'
         - 'Technology used: Drupal, Ubercart, Wordpress, Nginx, Ubuntu, Linode'
     - employer: zoomMedia Plus (zoomitonline.com)
       title: Staff Software Engineer
       location: San Diego, CA
       dates: March 2008 - October 2010
       description:
-        - 'A software consulting company, with several of our own iphone software & accessory products'
+        - 'A software consulting company, with several iphone applications & accessory products'
         - 'Designed and implemented zoomIt reader and zoomIt music apps for zoomIt hardware'
         - 'Designed and implemented prototype iPhone TV app for MediaFLO'
         - "Worked on ATE - Automatic Test Script for Qualcomm's MediaFLO"
@@ -67,7 +66,7 @@ work:
       dates: 2004 - 2008
       description:
         - "Worked on SKY MAP, a full stack mobile phone solution"
-        - "Managed a team of 6 to develop and maintain SKY Browser "
+        - "Managed a team of 6 to develop and maintain SKY Web Browser"
         - "Designed and developed SKY Instant Messaging, passed OMA certification"
         - "Helped manage company build, integration and release process"
         - 'Technology Used: C++, ARM Assembly Language, Nucleus, Symbian, QT, JTAG, ClearCase, ClearQuest, Ruby'
@@ -82,7 +81,7 @@ work:
         - "Helped perform daily load sanity tests for multiple builds and releases"
         - 'Technology Used: C, C++, Intel Assembly Language, pSOS, Windows, Continuus'
 social:
-    - project: San Diego Community Serve Day (sdcsd.org)
+    - project: San Diego Community Serve Day (sdcsd.5000hands.com)
       title: Web Master 
       location: San Diego, CA
       dates: 2009 - Current
