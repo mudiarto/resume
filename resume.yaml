@@ -8,47 +8,60 @@ contact:
     url: '\url{http://kusno.mudiarto.com/}'
 
 skills:
-    - Technical Knowledge:
-        - 'Languages: Python, JavaScript, Ruby,  Objective-C, C++, C, ARM / Intel Assembly Language'
-        - 'Frameworks: AppEngine, Django, iOS, Rails, jQuery, Backbone.js'
-        - 'Platforms: Amazon Web Services, Linux, Mac OS X, Windows, Nucleus'
-        - 'Tools: Vim, Git, Mercurial, ClearCase, JTAG'
     - General:
-        - 'Entrepreneurial minded - co-founded 3 companies'
+        - 'Entrepreneurial minded - co-founded and launched 4 companies'
         - 'A doer, generalist, fast learner and good problem solver'
         - 'Computer Geek - love all things computer. Learned programming since elementary school'
         - 'Interested in web and mobile technology, startup company, software development methodology, algorithms, improving myself and make the world a better place'
-    - Current Projects:
+    - Technical Knowledge:
+        - 'Languages: Python, JavaScript, Objective-C, C++, C, Ruby, ARM / Intel Assembly Language'
+        - 'Frameworks: Django, iOS, jQuery, Backbone.js, Rails'
+        - 'Platforms: Google AppEngine, Amazon Web Services, Linux, Mac OS X, Windows'
+    - Current and Previous Projects:
+        - 'Xfluential: Mint for social capital'
         - '5000hands.com: Causes.com for volunteer projects'
         - 'CloudGirlfriend.com: Anonymous real time chat & dating service'
-        - 'zoomIt: The first SD Card reader for iPhone & iPad'
         - 'Esthersnc.com: eCommerce website specialize in Nail Polish & Nail Treatments'
+        - 'zoomIt: The first SD Card reader for iPhone & iPad'
 
 work:
-    - employer: 5000 Hands
-      title: Co-founder
+    - employer: NextIgnite, Inc.
+      title: Co-founder, CTO
+      location: San Diego, CA
+      dates: October 2011 - Current
+      description:
+        - 'Designed and implemented Xfluential.com, Mint for social capital, with a team of 4. Currently in private beta.'
+        - 'Responsible for the software architecture and backend. Build an abstraction and queryable layers across multiple social networks.'
+        - 'Technology Used: Python, AppEngine, AWS, CoffeeScript, Backbone.js, jQuery, iOS, Android'
+    - employer: 5000 Hands, Inc.
+      title: Co-founder, CTO
       location: San Diego, CA
       dates: October 2010 - Current
       description:
-        - 'Designed and implemented 5000hands concepts and website'
+        - '5000hands empower people and organizations to create social projects, provide tools to promote, engage and manage volunteers efficiently.'
+        - 'Has been used to manage 300+ projects and 5000+ volunteers around San Diego'
+        - 'Designed and implemented 5000hands concepts and website.'
         - 'Technology Used: Python, AppEngine, AWS, CoffeeScript, Backbone.js, jQuery, Git'
-    - employer: Cloud Girlfriend
-      title: Co-founder
+    - employer: Cloud Girlfriend, LLC.
+      title: Co-founder, CTO
       location: San Diego, CA
       dates: April 2011 - Current
       description:
-        - 'Brainstormed initial product idea, launched it and became viral'
+        - 'Anonymous real time chat & dating service.'
+        - 'Brainstormed initial product idea, launched it and became viral. 85k+ users signed up. 50k+ users during the first week.'
         - 'Designed and implemented CloudGirlfriend concepts and website with a team of 4'
         - 'Technology Used: Python, AppEngine, Backbone.js, jQuery, Realtime Chat, Comet / Channel API, Git'
-    - employer: "Esther's Nail Center"
+    - employer: 3Censia, Inc.
       title: Co-founder
       location: San Diego, CA
       dates: 2008 - Current
       description:
-        - 'Designed and implemented Esthersnc.com website'
-        - 'Technology used: Drupal, Ubercart, Wordpress, Nginx, Ubuntu, Linode'
+        - 'Designed and implemented Esthersnc.com, eCommerce website for DIY nail polish and nail treatments.'
+        - 'Designed TheHoneyDay.com, eCommerce website for monthly candy subscription.'
+        - 'Combined monthly traffic: 30k+ unique visitors.'
+        - 'Technology used: Drupal, Ubercart, Wordpress, PHP, Nginx, Ubuntu, Linode'
     - employer: zoomMedia Plus
-      title: Principal Software Engineer, First Engineer
+      title: Principal Software Engineer
       location: San Diego, CA
       dates: March 2008 - October 2010
       description:
@@ -58,24 +71,24 @@ work:
         - 'Designed and implemented prototype iPhone TV app for MediaFLO'
         - "Implemented ATE - Automated Test Engine for Qualcomm's MediaFLO"
         - 'Installed and managed company wide source code repository and bug tracking tools'
-        - 'Technology Used: Objective-C, Three20, Rails, Mercurial, Perl'
+        - 'Technology Used: iOS, Objective-C, Three20, Rails, Mercurial, Perl'
     - employer: Sky MobileMedia
       title: Senior Software Engineer
       location: San Diego, CA
       dates: 2004 - 2008
       description:
-        - "Managed a team of 6 to develop and maintain SKY Browser. Worked closely with customers, product manager, system architect and QA team. Designed and developed web browser framework, layout engine, parser, CSS Module, HTML & WML module, ECMA/JavaScript integration, and network module. Ported on multiple handsets and platforms, integrated with multiple vendors, carriers, and supports multiple customers across the world"
-        - "Designed and developed SKY Instant Messaging, an IM client that supports Wireless Village protocols. Passed the OMA test certification in November 2004"
-        - "Manage build and release process before SKY has dedicated build manager. Developed utilities and workflow that makes build efficient. Worked with multisite ClearCase and ClearQuest across the world"
+        - 'Managed a team of 6 to develop and maintain SKY Web Browser.'
+        - 'Designed and developed SKY Instant Messaging, an IM client that supports Wireless Village protocols.'
+        - 'Released and managed software build and deliveries to internal and multiple clients.'
         - 'Technology Used: C++, ARM Assembly Language, Nucleus, Symbian, QT, JTAG, ClearCase, ClearQuest, Ruby'
     - employer: Gluon Networks
       title: Software Engineer
       location: San Diego, CA
       dates: 2000 - 2004
       description: 
-        - 'Designed and developed Log Manager, a high-performance, distributed, fault tolerant and redundant logging system, running on 2 disk equipped cards and 14 diskless secondary cards'
-        - "Developed and maintained CLX OS framework with a team of 3. Features developed including operating system transparency layer for pSOS and Windows, and multiple system services including TCP/IP, timer, messaging, memory allocation, synchronization, and various data structures. Also designed CLX CLIsubsystem, accessible through telnet & serial port"
-        - "Helped perform daily load sanity tests for multiple builds and releases. Assisted management and the software group on the load condition and problems. Worked together with offshore software development team to debug software, hardware, testing equipment or configuration problems"
+        - 'Designed and developed Log Manager System, a distributed, fault tolerant and redundant logging system.'
+        - 'Developed and maintained CLX OS C++ framework with a team of 3.'
+        - 'Helped perform daily load sanity tests for multiple builds and releases.'
         - 'Technology Used: C, C++, Intel Assembly Language, pSOS, Windows, Continuus'
 social:
     - project: San Diego Community Serve Day
@@ -91,7 +104,7 @@ social:
       location: San Diego, CA
       dates: 2010 - Current
       description:
-        - "Alternative gift giving that has a symbolic value to the gift recipient and benefits a meaningful cause at the same time. ACM creates an opportunity for others to give gifts of food, shelter, medicine, water, education and other for needy people around the world in your honor"
+        - 'Alternative gift giving that has a symbolic value to the gift recipient and benefits a meaningful cause at the same time. ACM creates an opportunity for others to give gifts of food, shelter, medicine, water, education and other for needy people around the world in your honor'
         - 'Implemented and managed the website'
         - 'Technology Used: Drupal, Nginx, MySQL, Ubuntu, Linode'
 
