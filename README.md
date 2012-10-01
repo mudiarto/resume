@@ -11,7 +11,7 @@ cd resume
 virtualenv -p python2.6 resume_env  
 source resume_env/bin/activate
 pip install yaml
-pip install text
+pip install tex
 pip install cheetah
 make
 
