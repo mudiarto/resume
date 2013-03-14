@@ -10,10 +10,13 @@ clone the code, put it in resume directory
 cd resume  
 virtualenv -p python2.6 resume_env  
 source resume_env/bin/activate
-pip install yaml
-pip install text
+pip install PyYaml
+pip install tex
 pip install cheetah
 make
+
+use sharelatex to build the resume. You need to upload resume.tex & res.cls to it to generate the pdf.
+I found it more efficient than downloading the whole tex packages (2.1G)
 
 
 
