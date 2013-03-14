@@ -10,7 +10,7 @@ clone the code, put it in resume directory
 cd resume  
 virtualenv -p python2.6 resume_env  
 source resume_env/bin/activate
-pip install PyYaml
+pip install PyYAML
 pip install tex
 pip install cheetah
 make
