@@ -10,14 +10,14 @@ contact:
 skills:
     - General:
         - 'Entrepreneurial minded - co-founded and launched 4 companies'
-        - 'A doer, generalist, fast learner and good problem solver'
-        - 'Computer Geek - love all things computer. Learned programming since elementary school'
-        - 'Interested in web and mobile technology, startup company, software development methodology, algorithms, improving myself and make the world a better place'
+        - 'A good tem leader, problem solver, self starter, and fast learner'
+        - 'Computer Geek - love all things computer. Learned and loved programming since elementary school'
+        - 'Interested in web and mobile technology, software development, startup company, algorithms, improving myself and make the world a better place'
     - Technical Knowledge:
-        - 'Languages: Python, JavaScript, Objective-C, C++, C, Ruby, ARM / Intel Assembly Language'
-        - 'Frameworks: GAE, Django, iOS, jQuery, Backbone.js, Rails'
-        - 'Platforms: Google AppEngine, Amazon Web Services, Linux, Mac OS X, Windows'
+        - 'Current: Python, JavaScript, CoffeeScript, Google AppEngine, Backbone.js, JQuery'
+        - 'Familiar: Django, iOS, AWS, Rails, Mobile, Embedded System, Objective-C, C++, C, Ruby, ARM / Intel Assembly Language'
     - Current and Previous Projects:
+        - 'Whisperk: Social friending and funding platform'
         - 'Xfluential: Mint for social capital'
         - '5000hands.com: Causes.com for volunteer projects'
         - 'CloudGirlfriend.com: Anonymous real time chat & dating service'
@@ -25,23 +25,24 @@ skills:
         - 'zoomIt: The first SD Card reader for iPhone & iPad'
 
 work:
-    - employer: NextIgnite, Inc.
-      title: Co-founder, CTO
-      location: San Diego, CA
-      dates: October 2011 - Current
-      description:
-        - 'Designed and implemented Xfluential.com, Mint for social capital, with a team of 4. Currently in private beta.'
-        - 'Responsible for the software architecture and backend. Build an abstraction and queryable layers across multiple social networks.'
-        - 'Technology Used: Python, AppEngine, AWS, CoffeeScript, Backbone.js, jQuery, iOS, Android'
     - employer: 5000 Hands, Inc.
       title: Co-founder, CTO
       location: San Diego, CA
       dates: October 2010 - Current
       description:
-        - '5000hands empower people and organizations to create social projects, provide tools to promote, engage and manage volunteers efficiently.'
+        - '5000hands empower people and organizations to create social projects, provide tools to promote, engage and manage volunteers efficiently. \url{http://5000hands.com/}'
         - 'Has been used to manage 300+ projects and 5000+ volunteers around San Diego'
         - 'Designed and implemented 5000hands concepts and website.'
-        - 'Technology Used: Python, AppEngine, AWS, CoffeeScript, Backbone.js, jQuery, Git'
+        - 'Technology Used: Python, AppEngine, CoffeeScript, Backbone.js, jQuery, Git'
+    - employer: NextIgnite, Inc.
+      title: Co-founder, CTO
+      location: San Diego, CA
+      dates: October 2011 - November 2012
+      description:
+        - 'Designed and implemented Whisperk.com, Social friending and funding platform, with a team of 4. Currently in private beta. \url{https://whisperk-staging.appspot.com/}'
+        - 'Designed and implemented Xfluential.com, Mint for social capital, with a team of 4. Currently in private beta. \url{https://xfluential-staging.appspot.com/auth/login/}'
+        - 'Responsible for the software architecture and backend. Build an abstraction and queryable layers across multiple social networks.'
+        - 'Technology Used: Python, AppEngine, AWS, CoffeeScript, Backbone.js, jQuery, iOS, Android'
     - employer: Cloud Girlfriend, LLC.
       title: Co-founder, CTO
       location: San Diego, CA
@@ -83,7 +84,7 @@ work:
         - 'Technology Used: C++, ARM Assembly Language, Nucleus, Symbian, QT, JTAG, ClearCase, ClearQuest, Ruby'
     - employer: Gluon Networks
       title: Software Engineer
-      location: San Diego, CA
+      location: Petaluma, CA
       dates: 2000 - 2004
       description: 
         - 'Designed and developed Log Manager System, a distributed, fault tolerant and redundant logging system.'
@@ -99,12 +100,12 @@ social:
         - 'An annual day of service event that benefits causes around San Diego'
         - 'Designed and implemented website registration & coordination system that enables the event to support 3000+ volunteers and 100+ projects around San Diego'
         - 'Technology Used: Joomla, Nginx, MySQL, Ubuntu, Linode'
-    - project: Alternative Christmas Market
+    - project: Alternative Gift Market
       title: Web Master
       location: San Diego, CA
       dates: 2010 - Current
       description:
-        - 'Alternative gift giving that has a symbolic value to the gift recipient and benefits a meaningful cause at the same time. ACM creates an opportunity for others to give gifts of food, shelter, medicine, water, education and other for needy people around the world in your honor'
+        - 'Alternative gift giving that has a symbolic value to the gift recipient and benefits a meaningful cause at the same time. AGM creates an opportunity for others to give gifts of food, shelter, medicine, water, education and other for needy people around the world in your honor'
         - 'Implemented and managed the website'
         - 'Technology Used: Drupal, Nginx, MySQL, Ubuntu, Linode'
 
