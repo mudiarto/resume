@@ -1,0 +1,236 @@
+{
+  "basics": {
+    "name": "Kusno Mudiarto",
+    "label": "Coder, Doer, Problem Solver",
+    "picture": "https://www.gravatar.com/avatar/73033a37c812c063de344fdd2e92b51c.png",
+    "email": "contact@mudiarto.com",
+    "phone": "(858)848-5868",
+    "website": "http://kusno.mudiarto.com",
+    "summary": "Kusno Mudiarto is an accomplished software developer with expertise in web technologies, and experiences with mobile and embedded software. His passion is to make excellent software to increase productivity and will help simplify user's life.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "San Diego",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "mudiarto",
+        "url": "https://www.twitter.com/mudiarto"
+      },
+      {
+        "network": "GitHub",
+        "username": "mudiarto",
+        "url": "https://github.com/mudiarto"
+      }
+
+    ]
+  },
+  "work": [
+    {
+      "company": "Coupa, Inc.",
+      "position": "Senior Software Engineer",
+      "website": "http://coupa.com",
+      "startDate": "April 2013",
+      "summary": "Coupa makes companies more profitable by reducing their costs; all with one simple platform that employees actually enjoy using.",
+      "highlights": [
+        "Lead Engineer for Coupa Expenses",
+        "Designed and developed multiple key features, like: Corporate Card Integration, Travel Integration, and Overall System Improvements",
+        "Technology Used: Ruby on Rails"
+      ]
+    },
+    {
+      "company": "5000 Hands, Inc.",
+      "position": "Co-founder, CTO",
+      "website": "http://5000hands.org",
+      "startDate": "2010/10",
+      "summary": "5000hands empower people and organizations to create social projects, provide tools to promote, engage and manage volunteers efficiently.",
+      "highlights": [
+        "Has been used to manage 300+ projects and 5000+ volunteers around San Diego",
+        "Designed and implemented 5000hands concepts and website",
+        "Technology Used: Python, AppEngine, Backbone, Bootstrap"
+      ]
+    },
+    {
+      "company": "3Censia, Inc.",
+      "position": "Co-founder, CTO",
+      "website": "http://3censia.com",
+      "startDate": "2008/7",
+      "summary": "eCommerce, Trading and Consulting companies",
+      "highlights": [
+        "Designed and implemented Esthersnc.com, leading eCommerce website for DIY nail polish and nail treatments",
+        "Designed and implemented 5000Commerce.com, a web application to synchronize data between BigCommerce and Quickbooks",
+        "Technology Used: Python, AppEngine, Drupal, Ubercart, Wordpress, Ubuntu"
+      ]
+    },
+    {
+      "company": "zoomMediaPlus, Inc.",
+      "position": "Principal Software Engineer",
+      "website": "http://www.zoommediaplus.com/",
+      "startDate": "2008/3",
+      "endDate": "2010/10",
+      "summary": "MVNO, MobileApps development and consulting",
+      "highlights": [
+         "Released several apps to Apple AppStore",
+         "Designed and implemented zoomIt reader and zoomIt music apps for zoomIt hardware",
+         "Designed and implemented comic reader app for iPhone",
+         "Designed and implemented prototype iPhone TV app for MediaFLO",
+         "Implemented ATE - Automated Test Engine for Qualcomm's MediaFLO",
+         "Technology Used: iOS, Objective-C, Rails, Perl"
+      ]
+    },
+    {
+      "company": "Sky MobileMedia, Inc.",
+      "position": "Senior Software Engineer",
+      "startDate": "2005/3",
+      "endDate": "2008/3",
+      "summary": "Mobile OS and Apps development",
+      "highlights": [
+        "Managed a team of 6 to develop and maintain SKY Web Browser",
+        "Designed and developed SKY Instant Messaging, an IM client that supports Wireless Village protocols",
+        "Released and managed software build and deliveries to internal and multiple clients",
+        "Technology Used: C++, ARM Assembly Language, Nucleus, Symbian, QT, JTAG, ClearCase, ClearQuest, Ruby"
+      ]
+    },
+    {
+      "company": "Gluon Network, Inc.",
+      "position": "Software Engineer",
+      "startDate": "2000/6",
+      "endDate": "2004/11",
+      "summary": "Telephony box to replace telecom company",
+      "highlights": [
+        "Designed and developed Log Manager System, a distributed, fault tolerant and redundant logging system",
+        "Developed and maintained CLX OS C++ framework with a team of 3",
+        "Helped perform daily load sanity tests for multiple builds and releases",
+        "Technology Used: C, C++, Intel Assembly Language, pSOS, Windows, Continuus"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "HandsOn San Diego",
+      "position": "Technology Team",
+      "website": "http://www.handsonsandiego.com/",
+      "startDate": "2013",
+      "summary": "HandsOn San Diego’s mission is to strengthen our community through volunteer action and leadership development.",
+      "highlights": [
+        "Prototyped and bootstrapped initial HandsOn San Diego website",
+        "Building integration of HandsOn SanDiego with other services",
+        "Technology Used: Salesforce, Python"
+      ]
+    },
+    {
+      "organization": "San Diego Community Serve Day",
+      "position": "Webmaster",
+      "website": "http://sdcsd2014.5000hands.org",
+      "startDate": "2009",
+      "summary": "Annual day of service event that benefits causes around San Diego",
+      "highlights": [
+        "Designed and implemented website registration & coordination system that enables the event to support 1000+ volunteers and 100+ projects around San Diego annually"
+      ]
+    },
+    {
+      "organization": "Indonesian Evangelical Church San Diego",
+      "position": "Webmaster & Piano Player",
+      "website": "http://giisd.org",
+      "startDate": "2011",
+      "endDate": "Current"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Institut Teknologi Sepuluh Nopember, Indonesia",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "1994",
+      "endDate": "1999"
+    },
+    {
+      "institution": "Founder Institute",
+      "area": "Startup Accelerator",
+      "studyType": "Graduate",
+      "startDate": "Fall 2010"
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "Ruby",
+        "Python",
+        "Javascript",
+        "C/C++",
+        "ObjectiveC"
+      ]
+    },
+    {
+      "name": "Framework and Tools",
+      "keywords": [
+        "Ruby On Rails",
+        "Google AppEngine",
+        "Django",
+        "Backbone.js",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "keywords": [
+        "Version Controls",
+        "Software Life Cycle",
+        "Software Testing",
+        "Git"
+      ]
+    },
+    {
+      "name": "Productivity",
+      "keywords": [
+        "Getting Things Done",
+        "10x Programmers",
+        "Kaizen"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Indonesian",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Software",
+      "keywords": [
+        "Productivity Apps",
+        "Artificial Intelligence",
+        "Software Tools and Utilities"
+      ]
+    },
+    {
+      "name": "Music and Multimedia",
+      "keywords": [
+        "Piano",
+        "Church Song",
+        "Video Editing"
+      ]
+    },
+    {
+      "name": "Cooking",
+      "keywords": [
+        "Indonesian",
+        "Chinese",
+        "Fusion"
+      ]
+    }
+  ],
+  "references": []
+}
