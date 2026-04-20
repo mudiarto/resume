@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.7/schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 
 cv:
   name: Leonardo da Vinci
@@ -12,14 +12,13 @@ cv:
     - network: LinkedIn
       username: leonardodavinci
 
-  summary: >
-    Polymath and Renaissance man with 40+ years of experience spanning painting, sculpture,
-    architecture, engineering, anatomy, and natural philosophy. Renowned for integrating
-    rigorous scientific observation with artistic mastery. Proven track record delivering
-    iconic works for high-profile patrons including the Medici and Sforza courts.
-    Seeking challenging commissions at the intersection of art, science, and engineering.
-
   sections:
+    summary:
+      - Polymath and Renaissance man with 40+ years of experience spanning painting, sculpture,
+        architecture, engineering, anatomy, and natural philosophy. Renowned for integrating
+        rigorous scientific observation with artistic mastery. Proven track record delivering
+        iconic works for high-profile patrons including the Medici and Sforza courts.
+        Seeking challenging commissions at the intersection of art, science, and engineering.
     experience:
       - company: Court of Ludovico Sforza
         position: Chief Engineer, Architect & Court Painter
@@ -99,27 +98,21 @@ cv:
           - Leonardo da Vinci
         date: 1478-1519
         journal: Manuscript Collection, Biblioteca Ambrosiana
-        doi: n/a
-        highlights:
-          - 1,119 leaves covering mechanics, optics, hydraulics, astronomy, and natural philosophy
+        summary: 1,119 leaves covering mechanics, optics, hydraulics, astronomy, and natural philosophy
 
       - title: "Trattato della Pittura (Treatise on Painting)"
         authors:
           - Leonardo da Vinci
         date: 1498
         journal: Compiled manuscript (published posthumously 1651)
-        doi: n/a
-        highlights:
-          - Foundational treatise on light, shadow, color, perspective, and composition still studied today
+        summary: Foundational treatise on light, shadow, color, perspective, and composition still studied today
 
       - title: "Anatomical Drawings & Studies"
         authors:
           - Leonardo da Vinci
         date: 1489-1513
         journal: Royal Collection, Windsor Castle
-        doi: n/a
-        highlights:
-          - 240+ sheets of anatomical drawings based on dissection of 30+ human cadavers
+        summary: "240+ sheets of anatomical drawings based on dissection of 30+ human cadavers"
 
     projects:
       - name: Mona Lisa
@@ -157,69 +150,58 @@ cv:
         details: Duchy of Milan, 1490 — for contributions to engineering and culture
 
 design:
-  theme: classic
-  font_family: Source Serif 4
-  font_size: 10pt
-  page_size: us-letter
-  color: "#4a6fa5"
-  disable_external_link_icons: false
-  disable_page_numbering: false
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date: false
-  last_updated_date_style: Last updated in TODAY
-  header_font_size: 30pt
-  text_alignment: justified
-  seperator_between_connections: ""
-  use_icons_for_connections: true
-  margins:
-    page:
-      top: 2cm
-      bottom: 2cm
-      left: 2cm
-      right: 2cm
-    section_title:
-      top: 0.3cm
-      bottom: 0.2cm
-    entry_area:
-      left_and_right: 0.2cm
-      vertical_between: 0.2cm
-    highlights_area:
-      top: 0.10cm
-      left: 0.4cm
-      vertical_between_bullet_points: 0.10cm
-    header:
-      vertical_between_name_and_connections: 0.3cm
-      bottom: 0.3cm
+  theme: engineeringresumes
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_footer: true
+    show_top_note: true
+  colors:
+    name: rgb(74, 111, 165)
+    headline: rgb(74, 111, 165)
+    connections: rgb(74, 111, 165)
+    section_titles: rgb(74, 111, 165)
+    links: rgb(74, 111, 165)
+  typography:
+    alignment: justified
+    font_family:
+      body: Source Serif 4
+      name: Source Serif 4
+      headline: Source Serif 4
+      connections: Source Serif 4
+      section_titles: Source Serif 4
+    font_size:
+      body: 10pt
+      name: 30pt
+  links:
+    show_external_link_icon: true
+  header:
+    space_below_name: 0.3cm
+    space_below_headline: 0.3cm
+    space_below_connections: 0.3cm
+    connections:
+      separator: ''
+      show_icons: true
+  section_titles:
+    space_above: 0.3cm
+    space_below: 0.2cm
+  sections:
+    space_between_regular_entries: 0.2cm
+  entries:
+    side_space: 0.2cm
+    highlights:
+      space_above: 0.10cm
+      space_left: 0.4cm
+      space_between_items: 0.10cm
+  templates:
+    footer: 'NAME -- PAGE_NUMBER/TOTAL_PAGES'
+    top_note: '*LAST_UPDATED CURRENT_DATE*'
 
 locale:
   language: english
-  last_updated: Last updated in
-  month: month
-  months: months
-  year: year
-  years: years
-  present: present
-  to: –
-  abbreviations_for_months:
-    - Jan
-    - Feb
-    - Mar
-    - Apr
-    - May
-    - Jun
-    - Jul
-    - Aug
-    - Sep
-    - Oct
-    - Nov
-    - Dec
 
 settings:
-  date: "2026-04-19"
-  render_command:
-    output_folder_name: rendercv_output
-    pdf_path: OUTPUT_FOLDER_NAME/Leonardo_da_Vinci_CV.pdf
-    typst_path: OUTPUT_FOLDER_NAME/Leonardo_da_Vinci_CV.typ
-    html_path: OUTPUT_FOLDER_NAME/Leonardo_da_Vinci_CV.html
-    markdown_path: OUTPUT_FOLDER_NAME/Leonardo_da_Vinci_CV.md
-    png_path: OUTPUT_FOLDER_NAME/Leonardo_da_Vinci_CV_PAGE_NUMBER.png
+  current_date: "2026-04-19"

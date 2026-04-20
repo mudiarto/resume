@@ -51,7 +51,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add rendercv_output/
+          git add --force rendercv_output/
           # Only commit if there are actual changes — avoids empty commits.
           git diff --cached --quiet || git commit -m "chore: render resume [skip ci]"
           git push
