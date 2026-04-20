@@ -1,0 +1,225 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.7/schema.json
+
+cv:
+  name: Leonardo da Vinci
+  location: Florence, Republic of Florence
+  email: leonardo@vincian.art
+  phone: "+39 055 000 0000"
+  website: https://en.wikipedia.org/wiki/Leonardo_da_Vinci
+  social_networks:
+    - network: GitHub
+      username: leonardodavinci
+    - network: LinkedIn
+      username: leonardodavinci
+
+  summary: >
+    Polymath and Renaissance man with 40+ years of experience spanning painting, sculpture,
+    architecture, engineering, anatomy, and natural philosophy. Renowned for integrating
+    rigorous scientific observation with artistic mastery. Proven track record delivering
+    iconic works for high-profile patrons including the Medici and Sforza courts.
+    Seeking challenging commissions at the intersection of art, science, and engineering.
+
+  sections:
+    experience:
+      - company: Court of Ludovico Sforza
+        position: Chief Engineer, Architect & Court Painter
+        location: Milan, Duchy of Milan
+        start_date: 1482-01
+        end_date: 1499-09
+        highlights:
+          - Designed innovative military machines including armored vehicles, multi-barreled cannons, and siege equipment
+          - Painted *The Last Supper* (1495–1498), a 15×29 ft mural considered one of the greatest works in Western art
+          - Engineered canal lock systems and urban planning proposals for Milan's expansion
+          - Sculpted the *Gran Cavallo*, a 24-foot bronze horse model (largest equestrian statue of its era)
+          - Organized court spectacles, pageants, and theatrical productions for diplomatic events
+
+      - company: Florentine Republic (Independent Practice)
+        position: Artist & Engineer
+        location: Florence, Republic of Florence
+        start_date: 1500-01
+        end_date: 1506-06
+        highlights:
+          - Painted *Mona Lisa* (c. 1503), achieving unprecedented sfumato technique for atmospheric realism
+          - Produced *Virgin and Child with Saint Anne* and began *Battle of Anghiari* mural commission
+          - Conducted systematic anatomical studies via human dissections, producing 240+ anatomical drawings
+          - Collaborated with Niccolò Machiavelli on an ambitious canal project to divert the Arno River
+
+      - company: House of Borgia
+        position: Military Architect & Engineer
+        location: Central Italy
+        start_date: 1502-05
+        end_date: 1503-03
+        highlights:
+          - Served as chief military engineer under Cesare Borgia, surveying fortifications across Central Italy
+          - Produced accurate topographical maps of Imola and the Val di Chiana, pioneering cartographic technique
+          - Designed bridge improvements, harbor plans, and defensive fortification upgrades
+
+      - company: King Francis I of France
+        position: Premier Painter, Engineer & Architect of the King
+        location: Amboise, Kingdom of France
+        start_date: 1516-01
+        end_date: 1519-05
+        highlights:
+          - Provided intellectual companionship and counsel to the French crown on art, science, and philosophy
+          - Designed the Château de Romorantin and contributed concepts to Château de Chambord
+          - Continued scientific research and writing, compiling treatises on painting, anatomy, and hydraulics
+          - Received annual pension of 1,000 scudi — a recognition of lifetime achievement
+
+    education:
+      - institution: Workshop of Andrea del Verrocchio
+        area: Painting, Sculpture & Goldsmithing
+        degree: Apprenticeship
+        location: Florence, Republic of Florence
+        start_date: 1466
+        end_date: 1478
+        highlights:
+          - Trained under the leading Florentine master in all fine arts and engineering disciplines
+          - Achieved guild membership in the Compagnia di San Luca (1472)
+          - Surpassed master in technical skill; Verrocchio reportedly retired from painting upon seeing Leonardo's angel in *Baptism of Christ*
+
+    skills:
+      - label: Fine Arts
+        details: Oil painting, fresco, tempera, sfumato technique, perspective geometry, sculpture, bronze casting, drawing
+
+      - label: Engineering & Architecture
+        details: Hydraulic engineering, military fortifications, urban planning, mechanical design, bridge engineering, canal systems
+
+      - label: Scientific Disciplines
+        details: Human anatomy, botany, geology, optics, hydrodynamics, aerodynamics, astronomy, cartography
+
+      - label: Tools & Instruments
+        details: Silverpoint, red chalk, pen & ink, camera obscura, lathe, printing press concepts, measuring instruments
+
+      - label: Languages
+        details: Italian (native), Latin (reading), some French
+
+    publications:
+      - title: "Codex Atlanticus: Engineering & Scientific Observations"
+        authors:
+          - Leonardo da Vinci
+        date: 1478-1519
+        journal: Manuscript Collection, Biblioteca Ambrosiana
+        doi: n/a
+        highlights:
+          - 1,119 leaves covering mechanics, optics, hydraulics, astronomy, and natural philosophy
+
+      - title: "Trattato della Pittura (Treatise on Painting)"
+        authors:
+          - Leonardo da Vinci
+        date: 1498
+        journal: Compiled manuscript (published posthumously 1651)
+        doi: n/a
+        highlights:
+          - Foundational treatise on light, shadow, color, perspective, and composition still studied today
+
+      - title: "Anatomical Drawings & Studies"
+        authors:
+          - Leonardo da Vinci
+        date: 1489-1513
+        journal: Royal Collection, Windsor Castle
+        doi: n/a
+        highlights:
+          - 240+ sheets of anatomical drawings based on dissection of 30+ human cadavers
+
+    projects:
+      - name: Mona Lisa
+        date: "1503-1519"
+        highlights:
+          - Oil on poplar panel; pioneered sfumato and aerial perspective techniques
+          - "Considered the world's most visited and recognized painting (Louvre, Paris)"
+
+      - name: The Last Supper
+        date: "1495-1498"
+        highlights:
+          - Tempera and oil on plaster; 460 × 880 cm mural in Santa Maria delle Grazie, Milan
+          - UNESCO World Heritage Site; revolutionary composition depicting the moment of betrayal
+
+      - name: Vitruvian Man
+        date: "1490"
+        highlights:
+          - Ink on paper; canonical study of human proportions based on Vitruvius
+          - Defines the intersection of geometry and human anatomy; cultural icon for science and art
+
+      - name: Flying Machine Designs
+        date: "1485-1505"
+        highlights:
+          - Designed ornithopter, aerial screw (proto-helicopter), hang glider, and parachute
+          - Studies of bird flight informed all aerodynamic concepts, predating practical aviation by 400 years
+
+    awards:
+      - label: Commissioned by the Medici
+        details: Multiple commissions from Lorenzo de' Medici, 1478-1481
+
+      - label: Appointed Premier Painter to the King of France
+        details: King Francis I, 1516 — highest artistic honor in Europe
+
+      - label: Honorary Citizen of Milan
+        details: Duchy of Milan, 1490 — for contributions to engineering and culture
+
+design:
+  theme: classic
+  font_family: Source Serif 4
+  font_size: 10pt
+  page_size: us-letter
+  color: "#4a6fa5"
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30pt
+  text_alignment: justified
+  seperator_between_connections: ""
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2cm
+      bottom: 2cm
+      left: 2cm
+      right: 2cm
+    section_title:
+      top: 0.3cm
+      bottom: 0.2cm
+    entry_area:
+      left_and_right: 0.2cm
+      vertical_between: 0.2cm
+    highlights_area:
+      top: 0.10cm
+      left: 0.4cm
+      vertical_between_bullet_points: 0.10cm
+    header:
+      vertical_between_name_and_connections: 0.3cm
+      bottom: 0.3cm
+
+locale:
+  language: english
+  last_updated: Last updated in
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+
+settings:
+  date: "2026-04-19"
+  render_command:
+    output_folder_name: rendercv_output
+    pdf_path: OUTPUT_FOLDER_NAME/Leonardo_da_Vinci_CV.pdf
+    typst_path: OUTPUT_FOLDER_NAME/Leonardo_da_Vinci_CV.typ
+    html_path: OUTPUT_FOLDER_NAME/Leonardo_da_Vinci_CV.html
+    markdown_path: OUTPUT_FOLDER_NAME/Leonardo_da_Vinci_CV.md
+    png_path: OUTPUT_FOLDER_NAME/Leonardo_da_Vinci_CV_PAGE_NUMBER.png

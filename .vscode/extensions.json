@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    // YAML language support with schema validation and autocompletion
+    "redhat.vscode-yaml",
+    // PDF preview (to view generated PDF without leaving VS Code)
+    "tomoki1207.pdf"
+  ]
+}

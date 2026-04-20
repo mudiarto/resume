@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# RenderCV — commit the output folder contents (PDF, HTML, etc.)
+# but ignore the Typst intermediate file if you prefer not to version it.
+# To also version the .typ source, remove the next line.
+rendercv_output/*.typ
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json

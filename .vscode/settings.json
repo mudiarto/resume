@@ -1,0 +1,17 @@
+{
+  // Associate *_CV.yaml files with the RenderCV JSON schema.
+  // This enables field autocompletion and inline validation in VS Code
+  // when the YAML extension (redhat.vscode-yaml) is installed.
+  "yaml.schemas": {
+    "https://raw.githubusercontent.com/rendercv/rendercv/main/schema.json": [
+      "*_CV.yaml",
+      "*_cv.yaml"
+    ]
+  },
+
+  // Show schema validation errors inline
+  "yaml.validate": true,
+
+  // Recommended extensions prompt
+  "extensions.ignoreRecommendations": false
+}

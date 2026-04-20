@@ -1,0 +1,57 @@
+# Renders the resume whenever the YAML source file changes on main,
+# then commits the generated output files back to the repository.
+#
+# Required repo setting:
+#   Settings → Actions → General → Workflow permissions → Read and write permissions
+
+name: Render Resume
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      # Only trigger when the resume source file actually changes —
+      # avoids re-rendering when only docs or workflow files are updated.
+      - "**_CV.yaml"
+  workflow_dispatch: # Allow manual trigger from the GitHub UI
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install RenderCV
+        # Install the full variant which bundles Typst — no separate Typst install needed.
+        run: pip install "rendercv[full]"
+
+      - name: Render resume
+        # Finds the first *_CV.yaml file in the repo root and renders it.
+        # Change the glob if your file is in a subdirectory.
+        run: |
+          YAML_FILE=$(ls *_CV.yaml 2>/dev/null | head -n 1)
+          if [ -z "$YAML_FILE" ]; then
+            echo "No *_CV.yaml file found in repo root."
+            exit 1
+          fi
+          echo "Rendering: $YAML_FILE"
+          rendercv render "$YAML_FILE"
+
+      - name: Commit rendered output
+        # Commits the generated PDF, HTML, Markdown, and PNG files back to the repo.
+        # Uses github-actions bot identity so commits are clearly automated.
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add rendercv_output/
+          # Only commit if there are actual changes — avoids empty commits.
+          git diff --cached --quiet || git commit -m "chore: render resume [skip ci]"
+          git push
